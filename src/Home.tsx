@@ -169,7 +169,7 @@ const DesContainer = styled.div`
 
 const Price = styled(Chip)`
   position: absolute;
-  margin: 5px;
+  margin: -75px;
   font-weight: bold;
   font-size: 1.2em !important;
   font-family: 'Patrick Hand', cursive !important;
