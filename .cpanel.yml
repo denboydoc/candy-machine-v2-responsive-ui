@@ -1,6 +1,0 @@
-  ---
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/xingmojn/repositories/candy-machine-v2-responsive-ui
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPAT
