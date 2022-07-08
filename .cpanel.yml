@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export REPOPATH=/home/xingmojn/repositories/* 
+    - export SITEPATH=/home/xingmojn/public_html/
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
