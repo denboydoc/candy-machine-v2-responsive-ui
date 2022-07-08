@@ -1,5 +1,6 @@
+  ---
 deployment:
-tasks:
-  - export REPOPATH=/home/xingmojn/repositories/candy-machine-v2-responsive-ui* 
-  - export SITEPATH=/home/xingmojn/public_html/
-  - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
+  tasks:
+    - export DEPLOYPATH=/home/xingmojn/repositories/candy-machine-v2-responsive-ui
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPAT
